@@ -21,7 +21,6 @@ html {
 
 body {
     font-family: 'Open Sans', sans-serif;
-    /* background-color: black; */
 }
 
 ul {
@@ -60,6 +59,7 @@ ul {
 /* Start Components */
 .main-heading {
     text-align: center;
+    margin-bottom: 70px;
 }
 
 .main-heading h2 {
@@ -849,7 +849,6 @@ ul {
 .pricing .plans .plan span::after {
     content: "/Mo";
     font-size: 20px;
-    /* position:relative; */
     right: -15px
 }
 
@@ -1023,9 +1022,6 @@ ul {
     cursor: pointer;
 }
 
-/* .contact .content .info {
-
-} */
 @media (max-width:767px) {
     .contact .content .info {
         order: -1;
